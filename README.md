@@ -31,16 +31,16 @@ RASA can be installed using the package manager pip using Python
 pip3 install rasa
 ```
 ### Flutter
-Flutter is an open-source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.
-Flutter can be downloaded from <a href="https://docs.flutter.dev/get-started/install">here</a>. <br>
-Flutter is a framework for <a href="https://dart.dev/">Dart</a>. I recommend looking at the syntax for the language. 
+Flutter, an open-source framework by Google for building natively compiled multi-platform applications from a single codebase. <br> You can download Flutter from <a href="https://docs.flutter.dev/get-started/install">here</a>.
+Flutter is based on the <a href="https://dart.dev/">Dart programming language, </a>, so it's a good idea to familiarize yourself with Dart's syntax.
 
 ### Firebase
-Firebase is used as the back-end server for the mobile-app and provides a database. 
-I recommend following Firebase own <a href="https://firebase.google.com/docs/flutter/setup?platform=ios">documentation</a> on how to set it up
+Firebase serves as the backend server for the mobile app and provides a database. To set it up, I recommend following Firebase's <a href="https://firebase.google.com/docs/flutter/setup?platform=ios">documentation</a> for proper guidance.
 
+## 🤖 Technial shenanigans
+The project files consist of 3 different folders
 
-## If you are lost
+## ✉️ If you are lost
 Feel free to contact me at <a href = "mailto: me@jacobphillips.dk">me@jacobphillips.dk</a>
 
 
