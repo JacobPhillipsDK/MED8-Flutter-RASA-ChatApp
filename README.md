@@ -24,7 +24,7 @@ This project consists of <b>3</b> different parts.
 
 
 ## ⚙ Installation
-Before downloading the project, you'll need to install the aforementioned parts 
+Before downloading the project, you'll need to install the following parts 
 ### RASA Python
 RASA can be installed using the package manager pip using Python
 ```bash
@@ -38,3 +38,9 @@ Flutter is a framework for <a href="https://dart.dev/">Dart</a>. I recommend loo
 ### Firebase
 Firebase is used as the back-end server for the mobile-app and provides a database. 
 I recommend following Firebase own <a href="https://firebase.google.com/docs/flutter/setup?platform=ios">documentation</a> on how to set it up
+
+
+## If you are lost
+Feel free to contact me at <a href = "mailto: me@jacobphillips.dk">me@jacobphillips.dk</a>
+
+
