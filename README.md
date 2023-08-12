@@ -45,7 +45,18 @@ Flutter is based on the <a href="https://dart.dev/">Dart programming language, <
 Firebase serves as the backend server for the mobile app and provides a database. To set it up, I recommend following Firebase's <a href="https://firebase.google.com/docs/flutter/setup?platform=ios">documentation</a> for proper guidance.
 
 ## 🤖 Technical shenanigans
-The project files consist of 3 different folders
+
+<details>
+<summary>Sending Notifications with Python through Firebase</summary>
+<br>
+It is possible to send notifications in two different ways with FCM(Firebase Cloud Messaging) Either using Firebase Admin SDK with Python or HTTP v1 API with Python by sending HTTP requests. 
+
+<details>
+<summary>Sending Data from Flutter App to RASA with Python</summary>
+<br>
+This is how you dropdown.
+</details>
+
 
 ## ✉️ If you are lost
 Feel free to contact me at <a href = "mailto: me@jacobphillips.dk">me@jacobphillips.dk</a>
