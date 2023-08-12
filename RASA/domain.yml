@@ -1,0 +1,197 @@
+﻿version: '3.1'
+
+
+
+intents:
+- affirm
+- bot_challenge
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- what_kind_of_chatbot
+- about_us
+- health_nutritional_advice
+- fruit_and_vegetables_information
+- fruit
+- list_of_fruits
+- list_of_vegetables
+- vegetable
+- less_meat
+- fish
+- salt
+- water
+- alcohol
+- legumes
+- nuts_and_seeds
+- milk_and_cheese
+- list_of_legumes
+- sweets
+- tell_name
+- weight
+
+actions:
+  - action_get_name
+
+
+responses:
+
+  utter_greet:
+  - text: Hej, hvordan går det name?
+
+  utter_cheer_up:
+  - text: 'Her er noget der kan opmuntre dig https://i.imgur.com/nGF1K8f.jpg'
+
+  utter_did_that_help:
+  - text: Var det her hjælpsom?
+
+  utter_happy:
+  - text: Det er godt at høre.
+
+  utter_goodbye:
+  - text: Farvel.
+
+  utter_iamabot:
+  - text: Jeg er en robot lavet af RASA.
+
+  utter_what_kind_of_chatbot:
+  - text: Jeg er en chatbot lavet til at besvare simple spørgsmål omkring diæt. Jeg er lavet af RASA. Mit navn er Diætcare. Jeg elsker at give tips omkring diæt
+
+
+  utter_health_nutritional_advice:
+    - text: Ifølge Fødevarestyrelsens 7 officielle kostråd til at spise sundt er følgende anbefalinger;
+       Spis planterigt, varieret og ikke for meget \n
+       Spis flere grøntsager og frugter \n
+       Spis mindre kød – vælg bælgfrugter og fisk \n
+       Spis mad med fuldkorn \n
+       Vælg planteolier og magre mejeriprodukter \n
+       Spis mindre af det søde, salte og fede \n
+       Sluk tørsten i vand \n
+       For personer over 65 år anbefaler de yderligere der bliver sat fokus på at spise nok bælgfrugter, fisk, kød, æg, nødder og mejeriprodukter. For at vide om en mere detaljeret kostplan kan du trykke på knappen mere information. https://altomkost.dk/fileadmin/user_upload/altomkost.dk/Billeder/Alt_om_kost/De_Officielle_Kostraad_november_2020/AltOmKost_kostra__d-samlet-hovedside_960x1310px_ver01.jpg
+
+  utter_about_us:
+    - text: Vi er en gruppe studerende på Aalborg Universitet, der har lavet en mobilapplikation med formålet at forbedre din kost. En sund kost kan forbedre livskvaliteten og hjælpe med at forebygge andre sygdomme, såsom slagtilfælde. Vi samarbejder med RES-Q (Registry of Stroke Care Quality), som fokuserer på at forbedre livskvaliteten hos overlevende personer, der har oplevet et slagtilfælde.
+
+  utter_fruit_and_vegetables_information:
+    - text: Grøntsager og frugter er godt for dit helbred, da de indeholder mange vitaminer, mineraler og kostfibre, især de grove grøntsager som fx ærter, gulerødder, blomkål samt bælgfrugter. 
+       Det er vigtigt at spise varieret af grøntsager og frugter, da de indeholder forskellige næringsstoffer. Det kan opnås ved at spise efter forskellige farver og huske at spise efter hele farveskalaen.
+       en anbefalede mængde er ca. 600 gram af grøntsager og frugter om dagen (6 om dagen), hvor 100 gram svarer til en stor gulerod eller et æble. Du kan erstatte 100 gram af de 600 gram med et lille glas juice.
+
+  utter_fruit:
+    - text: Frugt er godt for dit helbred og tæller med i de 600 gram (6 om dagen). Det er vigtigt at spise varieret frugt og ikke kun af samme slags. Hvis du vil have en liste over frugter, kan du skrive 'Liste over frugter'
+
+
+
+  utter_list_of_fruits:
+   - text: Her er en liste over forskellige slags frugt, som du kan spise; \n 
+      - Ananas \n
+      - Appelsin \n
+      - Banan \n
+      - Blommer \n
+      - Blåbær \n
+      - Brombær \n
+      - Citron \n
+      - Clementiner \n
+      - Druer \n
+      - Fersken \n
+      - Figen \n
+      - Hindbær \n
+      - Jordbær \n
+      - Kiwi \n
+      - Mandariner \n
+      - Mango \n
+      - Melon \n
+      - Nektariner \n
+      - Pære \n
+      - Solbær \n
+      - Tranebær \n
+      - Æble
+
+
+  utter_vegetable:
+    - text: Grøntsager findes i mange forskellige varianter, og det anbefales at spise 600 gram varieret frugt og grønt om dagen. Det er dog vigtigt at huske, at kartofler, nødder, tørret frugt som rosiner, frugt på konserves, svampe og oliven ikke tæller med i de 600 gram om dagen.
+       En god grundregel er at huske, at alle typer kål, løg, bønner og mere tæller med i de 600 gram om dagen. Hvis du skriver "Liste over grøntsager", får du en liste over alle grøntsager. Du kan også skrive "Mere information om grøntsager og frugter" for at få mere information om frugter og grøntsager og deres positive effekt på kroppen.
+
+
+  utter_list_of_vegetables:
+    - text: Her er en liste over grøntsager, som du kan spise og som tæller med i de 600 gram eller "6 om dagen"; \n
+       - agurk \n 
+       - asparges \n
+       - avocado \n
+       - bladselleri \n
+       - blomkål \n
+       - broccoli \n
+       - bønner \n
+       - bønnespirer \n
+       - citrongræs \n
+       - fennikel \n
+       - forårsløg \n
+       - gulerod \n
+       - hvidkål \n
+       - hvidløg \n
+       - kinakål \n
+       - løg \n
+       - majs \n
+       - peberfrugt \n
+       - porre \n
+       - radise \n
+       - rosenkål \n
+       - rødbede \n
+       - rødkål \n
+       - rødløg \n
+       - salat \n
+       - spidskål \n
+       - spinat \n
+       - squash \n
+       - tomat
+
+  utter_less_meat:
+    - text: Det anbefales at begrænse hvor meget du spiser af kød fra firbenede dyr - og især forarbejdet kød. Firbenede dyr er fx okse, kalv, lam og gris. Forarbejdet kød er kød, der fx er røget og saltet, herunder kødpålæg, pølser og bacon.
+
+
+  utter_fish:
+    - text: En god erstatning til kød er at spise fisk og skaldyr. Fisk og skaldyr er gode for din sundhed. De indeholder fedtstoffer, vitaminer og mineraler, fx vitamin D, jod og selen, som kan være svære at få nok af fra andre fødevarer. De bidrager derudover med protein. Særligt fede fisk er gode kilder til de vigtige omega-3-fedtsyrer og vitamin D.
+       Den anbefalede mængde af at spise fisk 2 gange om ugen som hovedret samt flere gange som pålæg, som er tilsvarende 350 gram. Det er vigtigt at spise forskellige slags fisk hvoraf, at 200 gram ud af de 350 gram skal være fede fisk såsom f.eks. sild, markral, laks og ørred. Alle typer fisk tæller med de 350 gram om ugen.
+
+  utter_water:
+    - text: Det er vigtigt at du drikker en passende mængde væske om dagen. Derfor anbefales det at du slukker tørsten med vand for at begrænse indtaget af læskedrikke med sukker såsom sodavand eller alkohol.
+       Den anbefalede mængde væske kommer ikke kun fra at drikke vand, men også fra maden. Derfor er det som hovedregel godt at drikke vand når du føler dig tørstig. En anbefaling er at altid have et glas vand i nærheden, da det er bedst at drikke vand i løbet af dagen i små portioner, i stedet for at drikke store mængder på kort tid.
+
+
+  utter_nuts_and_seeds:
+    - text: Spis ca. en håndfuld nødder tilsvarende 30 gram om dagen. Det er vigtigt at variere mellem forskellige typer af nødder såsom valnødder, hasselnødder, mandler og cashewnødder og at det er usaltede nødder. Det er også muligt at supplere sine måltider med frø, som kan være for eksempel sesamfrø, græskarkerner eller chiafrø. Brød kan også være en god kilde til frø, og det er vigtigt at variere mellem de forskellige frø, da de indeholder forskellige uønskede stoffer, som kan give bivirkninger i større mængder.
+       Nødder og frø indeholder både proteiner, vigtige fedtstoffer, vitaminer og mineraler, blandt andet selen. Når du spiser nødder flere gange om ugen, mindsker du risikoen for hjerte-kar-sygdomme. Det anbefales, at man undgår at spise for mange hørfrø eller solsikkekerner, da de kan have et højt indhold af tungmetaller, som kan være skadelige for kroppen.
+
+  utter_legumes:
+    - text: Bælgefrugter, såsom bønner, linser og kikærter, er en god kilde til protein og fiber og kan erstatte kød i mange retter. Det anbefales at spise 100 gram tilberedte bælgefrugter om dagen. Bælgefrugter findes i mange varianter, og kan købes som spiseklare konserves, tørrede, og frost.
+       Du skal være opmærksom på, at bælgefrugter skal tilberedes korrekt. Dette skyldes, at bælgefrugter kan indeholde naturligt forekommende lektiner, der kan forårsage sygdom ved indtag. Lektinerne kan inaktiveres ved korrekt tilberedning, så sørg for at følge anvisningerne på produktet. Grønne bønner og grønne ærter betragtes ikke som bælgefrugter.
+       Bælgefrugter tæller også som grøntsager og kan bidrage til de anbefalede 600 gram grøntsager om dagen i en sund og varieret kostplan.
+
+  utter_sweets:
+    - text: Til personer over 65 år anbefales det at spise søde sager i mindre mængder, som svarer til seks små portioner om ugen. En lille portion kan f.eks. være et lille stykke kage, en håndfuld slik eller chips, et stykke pandekage eller en lille is. https://altomkost.dk/fileadmin/user_upload/altomkost.dk/Publikationsdatabase/De_officielle_Kostraad_2021_og_Kostraadscirkel/Raaderumsportioner__redigeret_billede__sandra.png
+
+  utter_alcohol:
+    - text: Den generelle anbefaling er, at man ikke drikker alkohol, da det kan bidrage til mange kalorier. Men hvis man drikker alkohol, er de generelle retningslinjer, at man maksimalt må drikke 10 genstande om ugen og højest 4 på en dag. Alkohol kan have positive effekter i mindre mængder, men et overforbrug har store negative konsekvenser for ens sundhed. Hvis man ikke drikker alkohol i forvejen, anbefales det, at man ikke begynder at drikke det.
+
+  utter_weight:
+    - text: Det er vigtigt at have en sund vægt for ens egen sundhed. Derfor anbefales det, at man har en passende vægt iht. BMI, hvor en BMI mellem 18,5-25 er ideel. En god diæt, såsom Fødevarestyrelsens kostråd, kan hjælpe med at vedligeholde ens vægt.
+
+  utter_milk_and_cheese:
+    - text: For mejeriprodukter anbefales det at handle efter nøglehullet. Derudover er det en god idé at begrænse mejeriprodukter med højt fedtindhold, f.eks. fløde. Et dagligt indtag på ca. 250 ml mælkeprodukter er passende, men hvis du endnu ikke spiser en plantebaseret og varieret kost med mange bælgfrugter og mørkegrønne grøntsager, kan en mængde på 300-350 ml mælk eller mælkeprodukter dagligt være passende.
+
+  utter_salt:
+    - text: Ni ud af ti danskere har et for højt saltindtag. For meget salt kan føre til helbredsproblemer såsom forhøjet blodtryk, hjerte-kar-sygdomme og mavekræft. De officielle anbefalinger fra Fødevarestyrelsen lyder på 5-6 gram salt om dagen.
+       Nogle gode tips til at reducere saltindtaget er at undgå pålægsvarer og ost som grundregel. Det kan også anbefales at vælge en købestrategi med Nøglehulsmærket eller Fuldkornslogoet, da disse varer opfylder nogle specifikke krav, som Fødevarestyrelsen har fastsat. Op mod 70% af alt det salt, som danskere indtager, kommer nemlig fra supermarkedets produkter.
+
+  utter_list_of_legumes:
+    - text: Her er en liste over bælgfrugter, som du kan spise for at tælle dem med i de anbefalede 100 gram grøntsager om dagen \n
+       - linser - grønne linser, røde linser, puylinser, belugalinser \n
+       - brune, sorte og hvide bønner \n
+       - kidneybønner \n
+       - hestebønner
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

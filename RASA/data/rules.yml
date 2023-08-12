@@ -1,0 +1,108 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: about us
+  steps:
+  - intent: about_us
+  - action: utter_about_us
+
+- rule: health nutritional advice
+  steps:
+  - intent: health_nutritional_advice
+  - action: utter_health_nutritional_advice
+
+- rule: fruit and vegetables information
+  steps:
+  - intent: fruit_and_vegetables_information
+  - action: utter_fruit_and_vegetables_information
+
+- rule: fruit
+  steps:
+  - intent: fruit
+  - action: utter_fruit
+
+- rule: list of fruits
+  steps:
+  - intent: list_of_fruits
+  - action: utter_list_of_fruits
+
+- rule: vegetable
+  steps:
+  - intent: vegetable
+  - action: utter_vegetable
+
+- rule: list of vegetables
+  steps:
+  - intent: list_of_vegetables
+  - action: utter_list_of_vegetables
+
+- rule: less meat
+  steps:
+  - intent: less_meat
+  - action: utter_less_meat
+
+- rule: fish
+  steps:
+  - intent: fish
+  - action: utter_fish
+
+- rule: water
+  steps:
+  - intent: water
+  - action: utter_water
+
+- rule: alcohol
+  steps:
+  - intent: alcohol
+  - action: utter_alcohol
+
+- rule: sweets
+  steps:
+  - intent: sweets
+  - action: utter_sweets
+
+- rule: weight
+  steps:
+  - intent: weight
+  - action: utter_weight
+
+- rule: milk and cheese
+  steps:
+  - intent: milk_and_cheese
+  - action: utter_milk_and_cheese
+
+- rule: list of legumes
+  steps:
+  - intent: list_of_legumes
+  - action: utter_list_of_legumes
+
+- rule: salt
+  steps:
+  - intent: salt
+  - action: utter_salt
+
+- rule: legumes
+  steps:
+  - intent: legumes
+  - action: utter_legumes
+
+- rule: nuts and seeds
+  steps:
+  - intent: nuts_and_seeds
+  - action: utter_nuts_and_seeds
+
+- rule: tell name
+  steps:
+  - intent: tell_name
+  - action: action_get_name

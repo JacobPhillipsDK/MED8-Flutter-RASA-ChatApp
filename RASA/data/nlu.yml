@@ -1,0 +1,357 @@
+﻿version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hej
+    - hejsa
+    - goddag
+    - halløj
+    - halløjsa
+    - godmorgen
+    - god formiddag
+    - god eftermiddag
+    - Godaften
+    - mojn
+    - hey
+    - dav
+    - davs
+    
+
+- intent: goodbye
+  examples: |
+    - farvel
+    - ses
+    - vi ses
+    - hej hej
+    - bye
+    - hav en god dag
+    - på gensyn
+    - bye bye
+    - see you later
+    
+
+- intent: affirm
+  examples: |
+    - ja
+    - modtaget
+    - yep
+    - lyder godt
+    - korrekt
+    - aftale
+    
+
+- intent: deny
+  examples: |
+    - nej
+    - forkert
+    - det tror jeg ikke
+    - slet ikke
+    - ikke helt
+    - ukorrekt
+    - afvist
+    - det kan jeg ikke
+    
+
+- intent: mood_great
+  examples: |
+    - perfekt
+    - godt
+    - fantastisk
+    - fabelagtigt
+    - glad
+    - jeg er glad
+    - jeg har det godt
+    - vidunderligt
+    - min dag har været god
+    - det har været en god dag
+
+
+- intent: mood_unhappy
+  examples: |
+    - min dag har været dårlig
+    - min dag har været katastrofalt
+    - min dag har været lort
+    - jeg har det ikke godt
+    - jeg er trist
+    - det har været en trist dag
+    - jeg har det ikke godt
+    - jeg har det ikke så godt
+    - mega trist
+    - meget trist
+    - jeg er skuffet
+    - trist
+    - skuffet
+    - ikke glad
+    - ikke særligt godt
+    - det har ikke været en god dag
+    
+    
+
+- intent: bot_challenge
+  examples: |
+    - er du en chatbot?
+    - er du en bot?
+    - er du et menneske?
+    - snakker jeg med en robot?
+    - snakker jeg med en bot?
+
+
+- intent: what_kind_of_chatbot
+  examples: |
+    - hvad kan du hjælpe mig med?
+    - hvad for en slags bot er du?
+    - hvad for en slags person er du?
+    - hvordan virker du?
+    - hvordan kan du hjælpe mig?
+    - hvad kan jeg bruge dig til?
+
+
+- intent: about_us
+  examples: |
+    - hvem er i?
+    - hvem har lavet produktet?
+    
+
+- intent: health_nutritional_advice
+  examples: |
+    - hvad er en sund kost?
+    - hvordan spiser jeg sundt?
+    - hvad er anbefalingerne?
+    - hvad er sundhedsstyrelsens anbefalinger?
+    
+- intent: fruit_and_vegetables_information
+  examples: |
+    - Information om frugter og grøntsager
+    - Information om grøntsager og frugter
+    - er grøntsager og frugter sunde?
+    - er frugter og grøntsager sunde?
+    - er frugt og grøntsager sundt?
+
+
+- intent: fruit
+  examples: |
+    - information om frugt
+    - information om frugter
+    - frugter
+    - er frugt sundt?
+    - er frugter sunde?
+    - er frugt sundt for mig?
+    - frugt
+    - 
+
+- intent: list_of_fruits
+  examples: |
+    - Er Ananas en frugt?
+    - Er Appelsin en frugt?
+    - Er Banan en frugt?
+    - Er Blommer en frugt?
+    - Er Blåbær en frugt?
+    - Er Brombær en frugt?
+    - Er Citron en frugt?
+    - Er Clementiner en frugt?
+    - Er Druer en frugt?
+    - Er Fersken en frugt?
+    - Er Figen en frugt?
+    - Er Hindbær en frugt?
+    - Er Jordbær en frugt?
+    - Er Kiwi en frugt?
+    - Er Mandariner en frugt?
+    - Er Mango en frugt?
+    - Er Melon en frugt?
+    - Er Nektariner en frugt?
+    - Er Pære en frugt?
+    - Er Solbær en frugt?
+    - Er Tranebær en frugt?
+    - Er Æble en frugt?
+    - liste over frugter
+    - liste af frugter
+    - liste af frugter i danmark
+    - hvad for nogen frugter er der?
+    - hvad for nogen frugter findes der?
+
+- intent: vegetable
+  examples: |
+    - information om grøntsager
+    - grønsag
+    - grøntsager
+    - er grøntsager sunde?
+    - er grøntsager sunde for mig?
+    - hvad er grøntsager?
+    
+
+- intent: list_of_vegetables
+  examples: |
+    - er agurk en grøntsag?
+    - er asparges en grøntsag?
+    - er avocado en grøntsag?
+    - er bladselleri en grøntsag?
+    - er blomkål en grøntsag?
+    - er broccoli en grøntsag?
+    - er bønner en grøntsag?
+    - er bønnespirer en grøntsag?
+    - er citrongræs en grøntsag?
+    - er fennikel en grøntsag?
+    - er forårsløg en grøntsag?
+    - er gulerod en grøntsag?
+    - er hvidkål en grøntsag?
+    - er hvidløg en grøntsag?
+    - er kinakål en grøntsag?
+    - er løg en grøntsag?
+    - er majs en grøntsag?
+    - er peberfrugt en grøntsag?
+    - er porre en grøntsag?
+    - er radise en grøntsag?
+    - er rosenkål en grøntsag?
+    - er rødbede en grøntsag?
+    - er rødkål en grøntsag?
+    - er rødløg en grøntsag?
+    - er salat en grøntsag?
+    - er spidskål en grøntsag?
+    - er spinat en grøntsag?
+    - er squash en grøntsag?
+    - er tomat en grøntsag?
+    - liste over grøntsager
+    - liste over grøntsager i Danmark
+    - liste af grøntsager
+    - liste af grøntsager i Danmark
+    - liste om grøntsager
+    - liste om grøntsager i Danmark
+    - hvad for nogen grøntsager er der?
+
+- intent: less_meat
+  examples: |
+    - må jeg spise kød?
+    - må jeg spise rødt kød?
+    - må jeg spise firbenede dyr?
+    - må jeg spise fjerkræ?
+    - information omkring kød
+    - information omkring rødt kød
+    - information omkring fjerkræ
+    - information omkring firbenede dyr
+
+- intent: fish
+  examples: |
+    - må jeg spise fisk?
+    - hvor meget fisk må jeg spise?
+    - hvor meget fisk må jeg spise om dagen?
+    - hvor meget fisk må jeg spise om ugen?
+    - er fisk sundt?
+    - er fisk sundt at spise?
+    - er fisk usundt
+    - er fisk usundt at spise?
+    - tilpas mængde fisk
+
+- intent: water
+  examples: | 
+    - hvor meget vand skal jeg drikke?
+    - hvad er en passende mængde vand at drikke om dagen?
+    - hvor meget vand skal jeg drikke om dagen?
+    - må jeg drikke sodavand?
+    
+
+- intent: legumes
+  examples: |
+    - information omkring bælgefrugter
+    - er bælgefrugter sundt?
+    - bælgefrugter
+    - kan kød erstattes med bælgefrugter?
+
+- intent: sweets
+  examples: |
+    - må jeg spise kage?
+    - må jeg spise søde sager?
+    - søde sager
+    - kage
+    - information omkring søde sager
+    - information omkring kage
+    - hvor meget søde sager må jeg spise?
+    - hvor store portioner af søde sager må jeg spise?
+    - hvor stor en portion er kage?
+    - hvad er en lille portion?
+    - må jeg spise slik?
+    - må jeg spise chokolade?
+    - må jeg spise is?
+    - hvor stor en portion slik må jeg spise?
+    - hvor stor en portion chokolade må jeg spise?
+    - hvor stor en portion is må jeg spise?
+
+
+- intent: weight
+  examples: |
+    - skal jeg tænke på min vægt?
+    - hvor meget må jeg veje?
+    - information omkring vægt
+
+- intent: milk_and_cheese
+  examples: |
+    - hvor meget mælk skal jeg drikke?
+    - hvor meget ost må jeg spise?
+    - infromation omkring mælk
+    - information omkring ost
+    - må jeg spise ost?
+    - må jeg drikke mælk?
+    - hvor meget mælk må jeg drikke?
+    - hvor meget ost må jeg spise?
+    - nøglehullet omkring mælk
+
+- intent: alcohol
+  examples: |
+    - må jeg drikke alkohol?
+    - hvor meget alkohol må jeg drikke
+    - er alkohol sundt?
+    - hvor meget er alkohol er tilpas?
+    - er alkohol usundt?
+    - information omkring alkohol
+    - alkohol
+
+- intent: list_of_legumes
+  examples: |
+    - er linser en bælgefrugt?
+    - er bønner en bælgefrugt?
+    - er kidneybønner en bælgefrugt?
+    - er hestebønner en bælgefrugt?
+    - er kikærter en bælgefrugt?
+    - en liste over bælgefrugter
+    - liste over bælgefrugter
+    - liste af bælgefrugter
+    - hvad for nogen bælgefrugter er der?
+    - hvad er bælgefrugter?
+
+- intent: salt
+  examples: |
+    - må jeg spise salt?
+    - hvor meget salt må jeg spise?
+    - er salt sundt?
+    - hvor meget salt er tilpas?
+    - er salt usundt?
+    - information omkring salt
+    - er der salt i det jeg spiser?
+
+- intent: nuts_and_seeds
+  examples: |
+    - må jeg spise nødder?
+    - må jeg spise frø?
+    - må jeg spise nødder og frø?
+    - hvor meget nødder og frø må jeg spise?
+    - er nødder sundt?
+    - er frø sundt?
+    - er nødder og frø sundt?
+    - er nødder usundt?
+    - er frø usundt?
+    - er nødder og frø usundt?
+    - information omkring nødder
+    - information omkring frø
+    - information omkring nødder og frø
+    - nødder
+    - frø
+    - nødder og frø
+
+- intent: tell_name
+  examples: |
+    - hvad hedder du?
+    - hvad er dit navn?
+    - navn
+    - information omkring navn
+    - Jeg vil gerne vide dit navn
+    - hello world
+    - my little pony
