@@ -2,7 +2,7 @@
 This project consists of <b>3</b> different parts. 
  <ul>
   <li>RASA</li>
-  <li>Server script & Firebase</li>
+  <li>App Server script & Firebase</li>
   <li>Flutter mobile application</li>
 </ul> 
 
@@ -19,7 +19,14 @@ This project consists of <b>3</b> different parts.
   <a href="https://rasa.com/" target="_blank" rel="noreferrer">
     <img src="https://info.rasa.com/hubfs/rasa_logo_horizontal_purple-3.png" alt="RASA" width="100" height="60"/>
   </a>
+  <a href="https://flutter.dev/" target="_blank" rel="noreferrer">
+    <img src="https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg" alt="RASA" width="200" height="60"/>
+  </a>
+  <a href="https://dart.dev/" target="_blank" rel="noreferrer">
+    <img src="https://dart.dev/assets/img/shared/dart/logo+text/horizontal/white.svg" alt="RASA" width="200" height="60"/>
+  </a>
 </p>
+
 
 
 
@@ -31,13 +38,13 @@ RASA can be installed using the package manager pip using Python
 pip3 install rasa
 ```
 ### Flutter
-Flutter, an open-source framework by Google for building natively compiled multi-platform applications from a single codebase. <br> You can download Flutter from <a href="https://docs.flutter.dev/get-started/install">here</a>.
+Flutter, is an open-source framework by Google for building natively compiled multi-platform applications from a single codebase. <br> You can download Flutter from <a href="https://docs.flutter.dev/get-started/install">here</a>.
 Flutter is based on the <a href="https://dart.dev/">Dart programming language, </a>, so it's a good idea to familiarize yourself with Dart's syntax.
 
 ### Firebase
 Firebase serves as the backend server for the mobile app and provides a database. To set it up, I recommend following Firebase's <a href="https://firebase.google.com/docs/flutter/setup?platform=ios">documentation</a> for proper guidance.
 
-## 🤖 Technial shenanigans
+## 🤖 Technical shenanigans
 The project files consist of 3 different folders
 
 ## ✉️ If you are lost
