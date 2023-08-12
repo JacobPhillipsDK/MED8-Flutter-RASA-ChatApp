@@ -50,6 +50,10 @@ Firebase serves as the backend server for the mobile app and provides a database
 <summary>Sending Notifications with Python through Firebase</summary>
 <br>
 It is possible to send notifications in two different ways with FCM(Firebase Cloud Messaging) Either using Firebase Admin SDK with Python or HTTP v1 API with Python by sending HTTP requests. 
+ <meta http-equiv="refresh" content="7; url='https://www.w3docs.com'" />
+
+ 
+</details>
 
 <details>
 <summary>Sending Data from Flutter App to RASA with Python</summary>
