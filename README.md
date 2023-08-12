@@ -49,8 +49,13 @@ Firebase serves as the backend server for the mobile app and provides a database
 <details>
 <summary>Sending Notifications with Python through Firebase</summary>
 <br>
-It is possible to send notifications in two different ways with FCM(Firebase Cloud Messaging) Either using Firebase Admin SDK with Python or HTTP v1 API with Python by sending HTTP requests. 
- <meta http-equiv="refresh" content="7; url='https://www.w3docs.com'" />
+It is possible to send notifications in two different ways with FCM(Firebase Cloud Messaging) Either using
+ 
+  [Firebase Admin SDK](https://github.com/JacobPhillipsDK/MED8-Flutter-RASA-ChatApp/blob/main/Python%20Scripts/sendNotifications.py) 
+ Using Python or  [HTTP v1 API](https://github.com/JacobPhillipsDK/MED8-Flutter-RASA-ChatApp/blob/main/Python%20Scripts/sendNotificationsPOST_REQUEST.py).  with Python by sending HTTP requests 
+
+
+
 
  
 </details>
@@ -58,7 +63,7 @@ It is possible to send notifications in two different ways with FCM(Firebase Clo
 <details>
 <summary>Sending Data from Flutter App to RASA with Python</summary>
 <br>
-This is how you dropdown.
+Cool Dropdown will have more content soon
 </details>
 
 
